@@ -1,44 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Apoie Mulheres!</title>
 </head>
 <body>
+    
     <h1>Mulheres em Destaque</h1>
-    <p>Esta página tem como objetivo apoiar mulheres que se destacam em diversos contextos.</p>
+    <p class="apresentacao">Esta página tem como objetivo apoiar mulheres que se destacam em diversos contextos.</p>
+   
+    <div class="imagem"><img src="./img/girl-power.gif" alt="Imagem de Incentivo"></div>
 
-    <h3>Mulheres na Ciência</h3>
-    <p>Deixarei aqui duas sugestões de canais no Youtube de mulheres que fazem e divulgam ciência de verdade</p>
+<div class="container">
+    <h2 class="subtitulo">Mulheres na Ciência</h2>
+    <p class="subapresentacao">Deixarei aqui duas sugestões de canais no Youtube de mulheres que fazem e divulgam ciência de verdade</p>
 
-    <ul>
+    <ul class="ciencia">
         <li>Bibi Bailas</li>
-        <p>O canal dela no YouTube pode ser acessado por aqui:</p>
-        <a href="https://www.youtube.com/c/F%C3%ADsicaeAfins">Física e Afins</a>
+        <p class="descricao-canal">O canal dela no YouTube pode ser acessado por aqui:</p>
+        <a href="https://www.youtube.com/c/F%C3%ADsicaeAfins" target="_blank" class="link">Física e Afins</a>
 
-        <li>Lucy Souza e Allen Ximenes</li>
-        <p>O canal delas no YouTube pode ser acessado por aqui:</p>
-        <a href="https://www.youtube.com/channel/UCXMdUjZAvO5wGN5D77jLq1w">Make Science BR</a>
+        <li class="lucy">Lucy Souza</li>
+        <p class="descricao-canal">O canal dela no YouTube pode ser acessado por aqui:</p>
+        <a href="https://www.youtube.com/channel/UCXMdUjZAvO5wGN5D77jLq1w" target="_blank" class="link">Make Science BR</a>
     </ul>
+</div>
 
-    <h3>Mulheres na Tecnologia</h3>
-    <p>Essas mulheres trabalham, estudam e pesquisam tecnologia. Também vale a pena conferir!</p>
+<div class="container">
+    <h2 class="subtitulo">Mulheres na Tecnologia</h2>
+    <p class="subapresentacao">Essas mulheres trabalham, estudam e pesquisam tecnologia. Também vale a pena conferir!</p>
 
-    <ul>
+    <ul class="tecnologia">
         <li>Rafaella Ballerini</li>
-        <p>Link do canal:</p>
-        <a href="https://www.youtube.com/c/rafaellaballerini">Rafaella Ballerini</a>
+        <p class="descricao-canal">Link do canal:</p>
+        <a href="https://www.youtube.com/c/rafaellaballerini" target="_blank" class="link">Rafaella Ballerini</a>
 
         <li>Carol Attekita</li>
-        <p>Link do canal:</p>
-        <a href="https://www.youtube.com/c/AttekitaDev">Attekita Dev</a>
+        <p class="descricao-canal">Link do canal:</p>
+        <a href="https://www.youtube.com/c/AttekitaDev" target="_blank" class="link">Attekita Dev</a>
     </ul>
+    </div>
 
+    <hr>
 
     <h4>Deixe seu Feedback!</h4>
-
+    
+    <div class="rodape">
     <form>
         <label for="nome">Nome</label>
         <input type="text" id="nome">
@@ -47,7 +57,8 @@
         <input type="text" id="email">
 
         <label for="mensagem">Mensagem</label>
-        <textarea name="mensagem" id="mensagem" cols="15" rows="5"></textarea>
+        <textarea name="mensagem" id="mensagem" cols="18" rows="2"></textarea>
     </form>
+    </div>
 </body>
 </html>

@@ -1,0 +1,83 @@
+:root{
+    background-color: #c8d6e5;
+    opacity: 90%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1{
+    color: #ee5253;
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.apresentacao {
+    text-align: center;
+    font-size: 25px;
+    color: #222f3e;
+}
+
+.imagem{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.subtitulo{
+    color: #ff6b6b;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 30px;
+}
+
+.subapresentacao{
+    text-align: center;
+    font-size: 18px;
+    color: #222f3e;
+    margin-top: 10px;
+}
+
+ul li{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+li{
+    font-size: 20px;
+    color: #5f27cd;
+    font-weight: bolder;
+}
+
+.descricao-canal{
+    font-size: 15px;
+    color: #222f3e;
+}
+
+.link{
+    color: #2e86de;
+}
+
+a:hover{
+    color: #f368e0;
+}
+
+h4{
+    text-align: center;
+    color: #ff6b6b;
+    font-size: 20px;
+}
+
+.rodape{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
